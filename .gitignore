@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.local
+*.tsbuildinfo
+
+# 영업 데이터 보호: 실제 pipeline 엑셀은 커밋하지 않음
+samples/
+*.xlsx
+*.xls
+*.csv
+
+# 에디터/OS
+.DS_Store
+.vscode/
+.idea/
+*.log
